@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 :root {
-  --color-turquoise: #0fa10a;
-  --color-coral: #b87d24;
+  --color-turquoise: #3fc3eb;
+  --color-coral: #da6900;
   --color-dimgray: #82bfe2;
-  --color-darkslategray:  #222222;
-  --color-black: #111385;
+  --color-darkslategray:  #181818;
+  --color-black: #03042c;
 }
 
 body, html {
