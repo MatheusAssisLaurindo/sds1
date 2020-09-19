@@ -1,16 +1,18 @@
-export type RecordsReponse = {
-    content: RecordIntem[];
+import { type } from "os";
+
+export type RecordsResponse = {
+    content: RecordItem[];
     totalPages: number;
 }
 
-export type RecordIntem= {
+export type RecordItem = {
     id: number;
     moment: string;
     name: string;
     age: number;
-    gameTitle: String;
-    gamePlatform: Platform,
-    genreName: String;
+    gameTitle: string;
+    gamePlatform: Platform;
+    genreName: string;
 }
 
-export type  = 'XBOX' | 'PC' | 'PLAYSTATION';
+export type Platform = 'XBOX' | 'PC' | 'PLAYSTATION';
