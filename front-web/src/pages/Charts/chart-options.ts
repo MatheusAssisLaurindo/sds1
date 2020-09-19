@@ -3,7 +3,7 @@ export const pieOptions = {
     background: "transparent",
     foreColor: "red",
   },
-  colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
+  colors: ["#03042c", "#a10f0a", "#0fa10a", "#ffd6a5"],
   legend: {
     show: false,
   },
@@ -15,7 +15,7 @@ export const pieOptions = {
     offsetX: "100px",
     offsetY: "100px",
     style: {
-      colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
+      colors: ["#03042c", "#a10f0a", "#0fa10a", "#ffd6a5"],
       fontSize: "20px",
       fontFamily: "Play, sans-serif",
       fontWeight: 700,
@@ -38,7 +38,7 @@ export const barOptions = {
       show: false,
     },
   },
-  colors: ["#ED7947"],
+  colors: ["#da6900"],
   grid: {
     show: false,
   },
