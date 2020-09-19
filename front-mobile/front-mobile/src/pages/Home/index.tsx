@@ -2,14 +2,18 @@ import React from 'react';
 import {FontAwesome5 as Icon} from '@expo/vector-icons'
 import {Text, StyleSheet, View, Image, Alert } from 'react-native';
 import {RectButton} from 'react-native-gesture-handler';
+import Header from '../../components/Header'
+import {useNavigation} from '@react-navigation/native';
 
 const Home = () => {
+  const navigation = useNavigation();
 
     const handleOnPress = () => {
-        Alert.alert('Você clicou no botão')
+        navigation.navigate('CreatRecord');
     }
     return(
        <>
+       <Header />
         <View style={styles.container}>
             <Image 
             source={require('../../assets/gamer.png')}
@@ -44,7 +48,7 @@ const styles = StyleSheet.create({
       height: 265
     },
     title: {
-      color: '#FF0000',
+      color: '#D2691E',
       fontSize: 30,
       fontWeight: 'bold',
       marginTop: 15,
@@ -61,12 +65,12 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     button: {
-      backgroundColor: '#00FF00',
+      backgroundColor: '#FF0000',
       flexDirection: 'row',
       borderRadius: 10
     },
     buttonIcon: {
-      backgroundColor: '#D2691E',
+      backgroundColor: '#00FF00',
       justifyContent: 'center',
       alignItems: 'center',
       width: 50,
