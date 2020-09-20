@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       fontSize: 18,
       fontFamily: "Play_700Bold",
-      color: '#DC143C',
+      color: '#ED7947',
       marginLeft: 10,
       marginRight: 5,
     },

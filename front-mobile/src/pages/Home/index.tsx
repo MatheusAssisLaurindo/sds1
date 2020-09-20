@@ -39,7 +39,7 @@ const Home = () => {
 };
 const styles = StyleSheet.create({
     container: {
-      marginTop:  '10%',
+      marginTop:  '1%',
       backgroundColor: '#0B1F34',
       alignItems: 'center',
     },
@@ -48,14 +48,14 @@ const styles = StyleSheet.create({
       height: 265
     },
     title: {
-      color: '#DC143C',
+      color: '#D2691E',
       fontSize: 30,
       fontWeight: 'bold',
       marginTop: 15,
       fontFamily: "Play_700Bold",
     },
     subTitle: {
-      color: '#32CD32',
+      color: '#00BFFF',
       fontSize: 21,
       marginTop: 15,
       fontFamily: "Play_400Regular",
@@ -65,12 +65,12 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     button: {
-      backgroundColor: '#DC143C',
+      backgroundColor: '#FF0000',
       flexDirection: 'row',
       borderRadius: 10
     },
     buttonIcon: {
-      backgroundColor: '#00BFFF',
+      backgroundColor: '#00FF00',
       justifyContent: 'center',
       alignItems: 'center',
       width: 50,
