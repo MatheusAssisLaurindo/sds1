@@ -22,5 +22,6 @@ Neste evento desenvolvemos um site e um aplicativo Android para pesquisar os jog
 ## Links
 
 Veja a versão de produção na web:
+Obs: Aguarde um periodo para conseguir vizualisar os gráficos.
 
  - Netlify App: https://sds1-matheusassis.netlify.app/
